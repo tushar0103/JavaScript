@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a='thos is me';
+        console.log(a);
+        function hello(){
+            console.log("my nameis tuhsr");
+        }
+
+        //funtion in array
+        let obj={
+            b: 3,
+            c: 4,
+
+            hello: function myname(number){
+               console.log("the number is "+number);
+            }
+        }
+        // listener example
+        document.addEventListener("click", function click(){
+            console.log("clicked done");
+            alert("ello");
+           
+        })
+// when take time to execute
+        setTimeout(() => {
+                console.log("take so much time");
+            }, 6000);
+            console.log("this is the testing");
+    </script>
+</head>
+<body>
+    <h2>i am learning javascript</h2>
+</body>
+</html>
