@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is the example of Clock</h2>
+    <p>On click on Button you will get the Indian Standard Time </p>
+    <button onclick="main()">Click me</button>
+    <p id="demo"></p>
+    <script>
+        function main(){
+            setInterval(()=>{
+                var t= new Date();
+                t.setHours(5);
+                document.getElementById("demo").innerHTML=t;
+
+            },100)
+        } 
+        
+    </script>
+</body>
+</html>
