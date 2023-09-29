@@ -1,0 +1,15 @@
+ function sum(num1, num2){
+        return num1+num2;
+       }
+       const mul=(num1,num2)=>{
+return num1*num2;
+       }
+       const sub=()=>{
+let num1= parseInt(prompt("enter number1"));
+let num2= parseInt(prompt("enter number2"));
+var check= window.confirm("do you want to sub");
+if(check){
+window.alert("substract"+(num1-num2))}else{
+    alert("not done");
+}
+       }
