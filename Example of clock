@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body>    
     <h2>This is the example of Clock</h2>
     <p>On click on Button you will get the Indian Standard Time </p>
     <button onclick="main()">Click me</button>
